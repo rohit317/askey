@@ -1,0 +1,29 @@
+# yeah, you don't want a 88.9gb fork of this repo
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+coverage/
+
+# system
+.DS_Store
+Thumbs.db
+
+# secretos - jose jose
+.env
+.env.*
+!.env.example
+!.env.test
+
+# vistes
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# local only
+askey_math.tex
+src/content/
